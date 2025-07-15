@@ -3,7 +3,7 @@
  * Description: Cycles through the Red, Yellow and Green onboard LEDS one at a time at 1 second interval
  */
 
-#include "alpha.h"
+#include <alpha.h>
 
 void setup() {
   pinMode(AL_LED_RED, OUTPUT);
