@@ -19,14 +19,14 @@
  * Level: Beginner - Introduces analog input, actuator control, and serial output.
  */
 
-#include "alpha.h"       // AlphaBoard pin aliases
-#include <Servo.h>       // Servo motor control library
+#include "alpha.h"  // AlphaBoard pin aliases
+#include <Servo.h>  // Servo motor control library
 
-Servo myServo;           // Create Servo object
+Servo myServo;  // Create Servo object
 
 void setup() {
-  myServo.attach(AL_SERVO_D6);   // Attach servo to digital pin D6
-  Serial.begin(9600);            // Start serial communication at 9600 baud
+  myServo.attach(AL_SERVO_D6);  // Attach servo to digital pin D6
+  Serial.begin(9600);           // Start serial communication at 9600 baud
 }
 
 void loop() {
