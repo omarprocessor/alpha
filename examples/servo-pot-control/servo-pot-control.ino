@@ -1,7 +1,6 @@
 /**
  * Title: Servo Control with Potentiometer and Serial Monitor
- * Description: Reads the position of a potentiometer and moves a servo motor accordingly,
- *              while also printing the potentiometer value and mapped servo angle to the Serial Monitor.
+ * Description: Reads the position of a potentiometer and moves a servo motor accordingly, while also printing the potentiometer value and mapped servo angle to the Serial Monitor.
  */
 
 #include "alpha.h"  // AlphaBoard pin aliases
