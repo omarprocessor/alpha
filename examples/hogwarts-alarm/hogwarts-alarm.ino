@@ -1,7 +1,6 @@
 /**
  * Title: Hogwarts Sunrise Alarm
  * Description: Plays the Hogwarts theme when sunlight hits the window. Sensitivity adjustable with potentiometer. 
- * Manual override and testing via two buttons.
  */
 
 #include "alpha.h"
