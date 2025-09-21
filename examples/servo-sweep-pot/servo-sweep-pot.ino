@@ -1,13 +1,12 @@
 /**
-
-Title: Automated Servo Sweep
-
-Description: Automatically sweeps a servo motor back and forth continuously.
+*Title: Automated Servo Sweep
+*Description: Automatically sweeps a servo motor back and forth continuously.
 */
 
-#include <Servo.h>
+
 
 #include "alpha.h"
+#include <Servo.h>
 
 Servo myServo;
 int pos = 0;
